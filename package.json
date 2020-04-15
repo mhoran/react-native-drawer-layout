@@ -8,7 +8,7 @@
     "build": "npm run-script clear && npm run-script babel",
     "clear": "rm -rf dist/ && mkdir dist/",
     "lint:staged": "lint-staged",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "flow --show-all-errors",
     "format": "prettier --write --single-quote --trailing-comma all --tab-width 4 src/**/*.js"
   },
